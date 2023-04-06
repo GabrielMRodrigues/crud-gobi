@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #F3F3F3;
+}
+
+tr.not-completed {
+    background-color: #fff; /* cor de fundo para itens não finalizados */
+}
+
+tr.completed {
+    background-color: #CEE5D4; /* cor de fundo para itens finalizados */
+}
+
+tr.completed td:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.divCampoEditar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
